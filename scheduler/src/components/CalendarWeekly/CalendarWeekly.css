@@ -1,3 +1,11 @@
 .calendar-weekly {
     grid-area: calendar;
+    width: 100%;
+
+    display: flex;
+    flex: row;
+}
+
+.calendar-weekday {
+    flex: 1;
 }

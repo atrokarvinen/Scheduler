@@ -1,4 +1,23 @@
 .calendar-navigation {
     grid-area: calendarNavigation;
-    display: block;
+    display: flex;
+    flex: row;
+    padding: 1rem;
+}
+
+.calendar-navigation .nav-button {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.calendar-label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.calendar-text-value {
+    font-size: 2rem;
+    font-weight: normal;
+    
+    margin-left: 5px;
 }
