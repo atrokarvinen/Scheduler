@@ -1,0 +1,10 @@
+.layout {
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-areas:
+    "header "
+    "content "
+    "footer ";
+}

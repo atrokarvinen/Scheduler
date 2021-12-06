@@ -1,0 +1,4 @@
+.calendar-navigation {
+    grid-area: calendarNavigation;
+    display: block;
+}

@@ -1,0 +1,12 @@
+.content {
+    grid-area: content;
+    background-color: yellow;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-areas: 
+        "calendarNavigation calendarDate"
+        "calendar calendar"
+        "reminderNotes reminderNotes";
+}
